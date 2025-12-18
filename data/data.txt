@@ -1,0 +1,7 @@
+data/
+├── train/
+│   ├── img/
+│   └── dem/
+└── test/
+│   ├── img/
+│   └── dem/
