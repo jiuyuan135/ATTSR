@@ -38,12 +38,12 @@ data/
 Usage:
 Training
 ```bash
-python train.py --data_root ./data/Austria --save_dir ./checkpoints
+python train.py --data_root ./data --save_dir ./checkpoints
 ```
 
 Prediction
 ```bash
-python infer.py --data_root ./data/Austria --model_path ./checkpoints/ATTSR.pth --save_dir ./results
+python infer.py --data_root ./data --model_path ./checkpoints/ATTSR.pth --save_dir ./results
 ```
 
 📝 Citation
